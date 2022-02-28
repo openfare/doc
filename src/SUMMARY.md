@@ -1,0 +1,15 @@
+# Summary
+
+- [Introduction](./introduction/README.md)
+  - [Funding FOSS](./introduction/funding_foss.md)
+  - [Micropriced Commercial Software](./introduction/openfare_license.md)
+- [Installation](./installation.md)
+- [Command Line Tool](./cli/README.md)
+  - [Profile](./cli/profile.md)
+  - [Lock](./cli/lock.md)
+  - [Service](./cli/service/README.md)
+    - [LNPAY](./cli/service/lnpay.md)
+  - [Pay](./cli/pay.md)
+  - [Price](./cli/price.md)
+  - [Config](./cli/config.md)
+  - [Extensions](./cli/extensions.md)
