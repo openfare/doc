@@ -1,6 +1,8 @@
 # Micropriced Commercial Software
 
-OpenFare can manage payment obligations across thousands of software dependencies. Programmatic management and micropayments means that software maintainers can raise meaningful capital with low prices.
+OpenFare can manage payment obligations across thousands of software dependencies. Programmatic management and micropayments means that software maintainers can raise meaningful capital with low prices[^1].
+
+
 
 The system:
 
@@ -56,3 +58,5 @@ The following example describes a single payment plan. The plan is applicable to
     }
 }
 ```
+
+[^1]: Technical lower bound [price](../cli/price.md) as of February 2022: $0.0003788 (USD).
