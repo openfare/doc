@@ -44,7 +44,7 @@ The following example describes a single payment plan. The plan is applicable to
                     "email": "john@example.com"
                 },
                 "btc-lightning": {
-                    "keysend": "03488242941915ed5a101511b8dfeb6db81e0fcd7546f6a55ef4dedf590a7d7dd5"
+                    "lnurl": "03488242941915ed5a101511b8dfeb6db81e0fcd7546f6a55ef4dedf590a7d7dd5"
                 }
             }
         },

@@ -30,7 +30,7 @@ In this example `OpenFare.lock` file Steve and John split their donations 10/4. 
                     "email": "john@example.com"
                 },
                 "btc-lightning": {
-                    "keysend": "03488242941915ed5a10151...a55ef4dedf590a7d7dd5"
+                    "lnurl": "03488242941915ed5a10151...a55ef4dedf590a7d7dd5"
                 }
             }
         },
