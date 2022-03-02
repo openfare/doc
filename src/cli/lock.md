@@ -49,7 +49,7 @@ openfare lock new
 Add a payment plan (donation or fee funded):
 
 ```bash
-openfare lock add plan compulsory --fee "2 USD"
+openfare lock add plan compulsory --fee 2usd
 ```
 
 ```bash
