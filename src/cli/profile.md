@@ -31,11 +31,14 @@ Some services can be used to setup payment methods, for example:
 openfare profile add payment-method btc-ln --service lnpay
 ```
 
-## Sharing
+## Share
 
-Sharing your profile makes it easy for others to pull your profile when creating a project lock file.
+Sharing your profile allows other users to programmatically discover how you can be paid. Project [lock files](./lock.md) can then be curated and updated by pulling in your latest profile payment methods.
+
 Use the `push` subcommand to share your profile:
 
 ```bash
-openfare profile push github.com/john
+openfare profile push <url>
 ```
+
+Where `url` is any Git repository or GitHub user profile URL (`github.com/<username>`).
