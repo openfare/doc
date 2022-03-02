@@ -69,3 +69,11 @@ Add your local profile using the command:
 ```bash
 openfare lock add profile --shares 1000
 ```
+
+## Update
+
+Update a lock file by pulling the latest profile payment methods using the command:
+
+```bash
+openfare lock update
+```
