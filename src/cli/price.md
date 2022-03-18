@@ -1,10 +1,20 @@
 # Price
 
-Commercial users of OpenFare Licensed software are subject to payment plans. Use the `price` command to get a breakdown of costs for a project's software dependency tree.
+OpenFare supports [fee based payment plans](../introduction/micropriced_software.md).
+
+Run the `price` command in a project directory to produce a software dependencies fee report:
+
+```bash
+openfare price
+```
+
+Specify a package to obtain a package specific fee report:
 
 ```bash
 openfare price <package-name> <package-version>
 ```
+
+### Microprices
 
 Software priced using `openfare` can cost less than a cent. This is because `openfare` converts payments into satoshis (SATS) which is the smallest bitcoin denomination. 100 million SATS make up a single bitcoin.
 
