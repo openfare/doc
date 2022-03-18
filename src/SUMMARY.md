@@ -2,8 +2,11 @@
 
 - [Introduction](./introduction/README.md)
   - [Funding FOSS](./introduction/funding_foss.md)
-  - [Micropriced Commercial Software](./introduction/openfare_license.md)
+  - [Micropriced Software](./introduction/micropriced_software.md)
 - [Installation](./installation.md)
+- [Concepts](./concepts/README.md)
+  - [Lock File](./concepts/lock.md)
+  - [Payment Services](./concepts/services.md)
 - [Command Line Tool](./cli/README.md)
   - [Profile](./cli/profile.md)
   - [Lock](./cli/lock.md)

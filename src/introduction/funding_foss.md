@@ -6,7 +6,7 @@ OpenFare lock files are discovered programmatically from within the software dep
 
 OpenFare offers a distributed solution which sidesteps the need for accounts or centralized gatekeepers.
 
-Setting up a project to receive donations is easy. Simply use the `openfare` tool to generate a `OpenFare.lock` file in the project's top level directory.
+Setting up a project to receive donations is easy. Simply [use the `openfare` tool](../cli/lock.md) to generate a `OpenFare.lock` file in the project's top level directory.
 
 In this example `OpenFare.lock` file Steve and John split their donations 10/4. John can be paid via PayPal or via the Bitcoin Lightning Network. Steve can only be paid via PayPal:
 
