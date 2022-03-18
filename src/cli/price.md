@@ -14,12 +14,6 @@ Specify a package to obtain a package specific fee report:
 openfare price <package-name> <package-version>
 ```
 
-### Microprices
-
-Software priced using `openfare` can cost less than a cent. This is because `openfare` converts payments into satoshis (SATS) which is the smallest bitcoin denomination. 100 million SATS make up a single bitcoin.
-
-There are 2608 SATS in $1.00 (USD) as of February 2022. Which implies a technical lower limit software price of $0.0003788!
-
 #### -e, --extension
 
 Specify an extension to differentiate between package registries/ecosystems. Example:
@@ -48,3 +42,9 @@ Total: 0.001 USD
  is-odd    | 0.1.2   |      -      |  
  kind-of   | 3.2.2   |      -      |     
 ```
+
+### Microprice
+
+Software priced using `openfare` can cost less than a cent. This is because `openfare` converts payments into satoshis (SATS) which is the smallest bitcoin denomination. 100 million SATS make up a single bitcoin.
+
+There are 2608 SATS in $1.00 (USD) as of February 2022. Which implies a technical lower limit software price of $0.0003788!
