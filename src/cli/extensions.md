@@ -5,12 +5,13 @@ Extensions allow the `openfare` tool to interact with package registries and eco
 #### Official extensions
 
 | Name                                                        | Ecosystem      | Package Registries |
-|-------------------------------------------------------------|----------------|--------------------|
-| [openfare-js](https://github.com/openfare/openfare-js)      | Javascript     | npmjs.com          |
+|-------------------------------------------------------------|----------------|-------------------------------------|
+| [openfare-js](https://github.com/openfare/openfare-js)      | Javascript     | [npmjs.com](https://www.npmjs.com/) |
+| [openfare-rs](https://github.com/openfare/openfare-rs)      | Rust           | [crates.io](https://crates.io/)     |
 
 ## Add extension
 
-The `openfare-js` extension is included with `openfare` out of the box. Other extensions can be added using the command:
+Official extension are included with `openfare` out of the box. Other extensions can be added using the command:
 
 ```bash
 openfare extensions add <repository_url_or_name>
@@ -21,13 +22,13 @@ openfare extensions add <repository_url_or_name>
 Add via repository URL:
 
 ```bash
-openfare extensions add https://github.com/openfare/openfare-py
+openfare extensions add https://github.com/openfare/openfare-rs
 ```
 
 Add via extension name:
 
 ```bash
-openfare extensions add py
+openfare extensions add rs
 ```
 
 `openfare` will search for the latest extension release at address:
@@ -41,7 +42,7 @@ https://github.com/openfare/openfare-{name}
 Extensions can be disabled without deletion (config file retained) using the command:
 
 ```bash
-openfare extensions disable py
+openfare extensions disable js
 ```
 
 ## Enable extension
@@ -49,7 +50,7 @@ openfare extensions disable py
 Disabled extensions can be enabled using the command:
 
 ```bash
-openfare extensions enable py
+openfare extensions enable rs
 ```
 
 ## Removing extension
@@ -57,5 +58,5 @@ openfare extensions enable py
 Extensions can be disabled and deleted using the command:
 
 ```bash
-openfare extensions remove py
+openfare extensions remove js
 ```
