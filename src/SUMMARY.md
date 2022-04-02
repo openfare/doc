@@ -16,3 +16,6 @@
   - [Price](./cli/price.md)
   - [Config](./cli/config.md)
   - [Extensions](./cli/extensions.md)
+- [Concepts](./concepts/README.md)
+  - [Lock File](./concepts/lock.md)
+  - [Payment Services](./concepts/services.md)
