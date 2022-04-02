@@ -1,4 +1,4 @@
-# Installation
+# Install
 
 ## Pre-compiled binaries
 
@@ -8,7 +8,7 @@ To make it easier to run, put the path to the binary into your PATH.
 
 ## Build from source using Rust
 
-To build the `openfare` executable from source, you will first need to install Rust and Cargo. Follow the instructions on the Rust installation page. OpenFare currently requires at least Rust version 1.58.0
+To build the `openfare` executable from source, you will first need to install Rust and Cargo. Follow the instructions on the Rust [installation page](https://www.rust-lang.org/tools/install). OpenFare currently requires at least Rust version 1.58.0
 
 Once you have installed Rust, the following command can be used to build and install `openfare`:
 
@@ -16,7 +16,7 @@ Once you have installed Rust, the following command can be used to build and ins
 cargo install openfare
 ```
 
-This will automatically download `openfare` from crates.io, build it, and install it in Cargo's global binary directory (~/.cargo/bin/ by default).
+This will automatically download `openfare` from [crates.io](https://crates.io), build it, and install it in Cargo's global binary directory (~/.cargo/bin/ by default).
 
 ## Installing the latest master version
 

@@ -1,7 +1,7 @@
 # Command Line Tool
 
 The `openfare` command-line tool is used to manage payment methods and pay software maintainers.
-After you have [installed](../installation.md) `openfare`, you can run the `openfare help` command in your terminal to view the available commands.
+After you have [installed](../install.md) `openfare`, you can run the `openfare help` command in your terminal to view the available commands.
 
 The following sections provide in-depth information on the different commands available.
 
