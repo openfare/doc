@@ -1,6 +1,6 @@
 # Get Started
 
-This section describes how to get started with OpenFare. Before getting started, be sure to install the [`openfare` tool](../install.md)
+This section describes how to get started with OpenFare. Before getting started, be sure to install the [`openfare` tool](./install.md)
 
 #### Content
 
