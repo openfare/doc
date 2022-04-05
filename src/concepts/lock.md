@@ -16,7 +16,7 @@ A lock file is composed of payment plans and payees:
         ...
     },
     "payees": {
-        ..
+        ...
     }
 }
 ```
