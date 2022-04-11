@@ -37,7 +37,7 @@ A lock file can contain multiple payment plans. A payment plan describes the fol
         "type": "compulsory",
         "conditions": {
             "for-profit": "true",
-            "employees-count": "> 100",
+            "employees-count": "50 <= count < 150",
             "expiration": "2022-12-19"
         },
         "payments": {

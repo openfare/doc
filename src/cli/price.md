@@ -38,7 +38,7 @@ Total: 0.001 USD
  is-even   | 1.0.0   |      -      |  
            |         |             |    
  is-buffer | 1.1.6   |      -      |  
- is-number | 3.0.0   |    0.001    | employees-count > 100
+ is-number | 3.0.0   |    0.001    | 50 <= employees-count < 150
  is-odd    | 0.1.2   |      -      |  
  kind-of   | 3.2.2   |      -      |     
 ```

@@ -17,7 +17,7 @@ The following example describes a single payment plan. The plan is applicable to
             "type": "compulsory",
             "conditions": {
                 "for-profit": "true",
-                "employees-count": "> 100",
+                "employees-count": "50 <= count < 150",
                 "expiration": "2022-12-19"
             },
             "payments": {
