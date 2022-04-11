@@ -33,7 +33,7 @@ openfare config show <field-path>
   "profile": {
     "url": "github.com/rndhouse",
     "employees-count": null,
-    "commercial": false,
+    "for-profit": false,
     "include-voluntary-donations": true
   },
   "extensions": {
