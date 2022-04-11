@@ -8,14 +8,12 @@ A project `OpenFare.lock` file describes how funds are distributed between contr
     "plans": {
         "0": {
             "type": "voluntary",
-            "conditions": {},
-            "payments": {
-                "shares": {
-                    "rndhouse": 1000,
-                    "steve": 500
-                }
-            }
+            "conditions": {}
         }
+    },
+    "shares": {
+        "rndhouse": 1000,
+        "steve": 500
     },
     "payees": {
         "rndhouse": {
@@ -49,7 +47,7 @@ openfare lock new
 Add a payment plan (donation or fee funded):
 
 ```bash
-openfare lock add plan compulsory --fee 2usd
+openfare lock add plan compulsory --price 2usd
 ```
 
 ```bash

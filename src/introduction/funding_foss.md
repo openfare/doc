@@ -14,14 +14,12 @@ In this example `OpenFare.lock` file Steve and John split their donations 10/4. 
 {
     "plans": {
         "0": {
-            "type": "voluntary",
-            "payments": {
-                "shares": {
-                    "steve": "100",
-                    "john": "40"
-                }
-            }
+            "type": "voluntary"
         }
+    },
+    "shares": {
+        "steve": "100",
+        "john": "40"
     },
     "payees": {
         "john": {

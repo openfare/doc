@@ -20,14 +20,12 @@ The following example describes a single payment plan. The plan is applicable to
                 "employees-count": "50 <= count < 150",
                 "expiration": "2022-12-19"
             },
-            "payments": {
-                "total": "0.0025 USD",
-                "shares": {
-                    "steve": 100,
-                    "john": 40
-                }
-            }
+            "price": "0.0025 USD"
         }
+    },
+    "shares": {
+        "steve": 100,
+        "john": 40
     },
     "payees": {
         "john": {

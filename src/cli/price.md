@@ -2,13 +2,13 @@
 
 OpenFare supports [fee based payment plans](../introduction/micropriced_software.md).
 
-Run the `price` command in a project directory to produce a software dependencies fee report:
+Run the `price` command in a project directory to produce a software dependencies price report:
 
 ```bash
 openfare price
 ```
 
-Specify a package to obtain a package specific fee report:
+Specify a package to obtain a package specific price report:
 
 ```bash
 openfare price <package-name> <package-version>

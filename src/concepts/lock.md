@@ -17,17 +17,19 @@ A lock file is composed of payment plans and payees:
     },
     "payees": {
         ...
+    },
+    "shares": {
+        ...
     }
 }
 ```
 
-### Payment Plans
+### Plans
 
 A lock file can contain multiple payment plans. A payment plan describes the following:
 
-* how funds should be split between payees
 * conditions used to determine applicability
-* and a total fee for `compulsory` plans.
+* and a price for `compulsory` plans.
 
 #### Example
 
@@ -40,24 +42,12 @@ A lock file can contain multiple payment plans. A payment plan describes the fol
             "employees-count": "50 <= count < 150",
             "expiration": "2022-12-19"
         },
-        "payments": {
-            "total": "0.0025 USD",
-            "shares": {
-                "steve": 100,
-                "john": 40
-            }
-        }
+        "price": "0.0025 USD"
     },
     "1": {
         "type": "voluntary",
         "conditions": {
             "expiration": "2022-12-19"
-        },
-        "payments": {
-            "shares": {
-                "steve": "100",
-                "john": "40"
-            }
         }
     }
 }
@@ -70,10 +60,6 @@ A payment plan is deemed applicable to a software library user based on plan `co
 For example, the `expiration` condition invalidates a plan at any time beyond the associated date value.
 
 Compulsory payment plan "0" from the example above stipulates three conditions. The plan is applicable to for-profit organizations which use the software before 2022-12-19 and which have more than 100 employees. Conditions are logic-AND chained together.
-
-#### Payments
-
-Shares are allocated by payee labels (`steve` and `john` in the example above). These labels refer to payees within the lock file's `payees` section. Shares determine the proportion of funds received by each payee.
 
 ### Payees
 
@@ -101,3 +87,18 @@ Field descriptions:
 * `url` - Payee's OpeFare profile URL for pulling profile updates.
 * `unique-id` - Helper (not security critical) field to ensure lock file payee labels are unique and to simplify mapping between local and remote profiles.
 * `payment-methods` - Supported payment methods for receiving funds.
+
+#### Shares
+
+Shares determine the proportion of funds received by each payee. Fund shares are sent directly to contributors, project owners don't need to handle funds for contributors. Shares are allocated by payee labels (`steve` and `john` in the example above). These labels refer to payees within the lock file's `payees` section.
+
+#### Example
+
+The following example `shares` section describes how donations/fees should be split between payees Steve and John. Steve should receive 67% of the total funds, the remainder goes to John.
+
+```json
+"shares": {
+    "steve": 100,
+    "john": 10
+}
+```
