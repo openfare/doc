@@ -1,14 +1,18 @@
 # Lock File
 
-Lock files define donation/fee payment plans for software packages. They also describe payees and their preferred payment methods.
+A software package lock file (`OpenFare.lock`) describes how funds are shared between project contributors.
+
+A lock file includes:
+
+* Contributor payment method details.
+* A contributor split scheme for sharing funds.
+* Plans for voluntary and compulsory payments.
 
 A lock file is constructed using the `openfare` tool. Command line interface documentation for creating and managing a lock file can be found [here](../cli/lock.md).
 
-Lock files are always located in the package's top level directory as `OpenFare.lock`.
-
 ## Overview
 
-A lock file is composed of payment plans and payees:
+A lock file is composed of payment plans, payee payment details, and a fund shares scheme:
 
 ```json
 {
